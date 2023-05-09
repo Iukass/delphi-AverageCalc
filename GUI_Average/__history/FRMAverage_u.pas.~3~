@@ -1,0 +1,45 @@
+unit FRMAverage_u;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.NumberBox;
+
+type
+  TForm1 = class(TForm)
+    lbl_num2: TLabel;
+    lbl_num3: TLabel;
+    lbl_num1: TLabel;
+    nbx_1: TNumberBox;
+    nbx_2: TNumberBox;
+    nbx_3: TNumberBox;
+    btnCalc: TButton;
+    lbl_average: TLabel;
+    lbl_RndAverage: TLabel;
+    procedure btnCalcClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnCalcClick(Sender: TObject);
+
+var
+  num1, num2, num3 : Integer;
+  average : Real;
+
+begin
+
+
+end;
+
+end.
